@@ -7,16 +7,16 @@
 
 import Foundation
 
-//生成数列
+//生成數列
 
-var n:[Double] = [0,1,2]
+var n:[Double] = [sqrt(2)/2]
 
-func get_an(a:Int) -> Double{
-    return (n[a-1]*n[a-1]+1)/(n[a-2]+1/n[a-2])
+func getAn(_ i:Int) -> Double{
+    return sqrt(2)*sqrt(1-sqrt(1-pow(n[i-1], 2)))/2
 }
 
-for a in 3...10{
-    let an = get_an(a: a)
+for a in 1...100{
+    let an = getAn(a)
     n.append(an)
-    print(a,an)
+    print(a,an*pow(2, Double(a+2)))
 }

@@ -38,6 +38,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		34A74CD32E079237006FE82D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		34C325E12DBD14FD00F5DCD9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,6 +71,7 @@
 		342AB2B22DC7519C00AE5896 /* sum[4sqrt(n)] */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sum[4sqrt(n)]"; sourceTree = BUILT_PRODUCTS_DIR; };
 		346AFF2F2DC8EC0300EE502F /* list_generate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = list_generate; sourceTree = BUILT_PRODUCTS_DIR; };
 		3493ADD92D99069300E7A038 /* 39Game */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 39Game; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A74CD52E079237006FE82D /* average carddraw */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "average carddraw"; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C325E32DBD14FD00F5DCD9 /* NumberChoosingProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberChoosingProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		34D722132D8FD20C0003AA30 /* BusProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BusProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +90,11 @@
 		3493ADDA2D99069300E7A038 /* 39Game */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = 39Game;
+			sourceTree = "<group>";
+		};
+		34A74CD62E079237006FE82D /* average carddraw */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "average carddraw";
 			sourceTree = "<group>";
 		};
 		34C325E42DBD14FD00F5DCD9 /* NumberChoosingProblem */ = {
@@ -116,6 +131,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		34A74CD22E079237006FE82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34C325E02DBD14FD00F5DCD9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -142,6 +164,7 @@
 				34C325E42DBD14FD00F5DCD9 /* NumberChoosingProblem */,
 				342AB2B32DC7519C00AE5896 /* sum[4sqrt(n)] */,
 				346AFF302DC8EC0300EE502F /* list_generate */,
+				34A74CD62E079237006FE82D /* average carddraw */,
 				34D721F72D8FD1610003AA30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,6 +177,7 @@
 				34C325E32DBD14FD00F5DCD9 /* NumberChoosingProblem */,
 				342AB2B22DC7519C00AE5896 /* sum[4sqrt(n)] */,
 				346AFF2F2DC8EC0300EE502F /* list_generate */,
+				34A74CD52E079237006FE82D /* average carddraw */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -227,6 +251,28 @@
 			productReference = 3493ADD92D99069300E7A038 /* 39Game */;
 			productType = "com.apple.product-type.tool";
 		};
+		34A74CD42E079237006FE82D /* average carddraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34A74CDB2E079237006FE82D /* Build configuration list for PBXNativeTarget "average carddraw" */;
+			buildPhases = (
+				34A74CD12E079237006FE82D /* Sources */,
+				34A74CD22E079237006FE82D /* Frameworks */,
+				34A74CD32E079237006FE82D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				34A74CD62E079237006FE82D /* average carddraw */,
+			);
+			name = "average carddraw";
+			packageProductDependencies = (
+			);
+			productName = "average carddraw";
+			productReference = 34A74CD52E079237006FE82D /* average carddraw */;
+			productType = "com.apple.product-type.tool";
+		};
 		34C325E22DBD14FD00F5DCD9 /* NumberChoosingProblem */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34C325E92DBD14FD00F5DCD9 /* Build configuration list for PBXNativeTarget "NumberChoosingProblem" */;
@@ -279,7 +325,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1630;
+				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					342AB2B12DC7519C00AE5896 = {
@@ -290,6 +336,9 @@
 					};
 					3493ADD82D99069300E7A038 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					34A74CD42E079237006FE82D = {
+						CreatedOnToolsVersion = 26.0;
 					};
 					34C325E22DBD14FD00F5DCD9 = {
 						CreatedOnToolsVersion = 16.3;
@@ -321,6 +370,7 @@
 				34C325E22DBD14FD00F5DCD9 /* NumberChoosingProblem */,
 				342AB2B12DC7519C00AE5896 /* sum[4sqrt(n)] */,
 				346AFF2E2DC8EC0300EE502F /* list_generate */,
+				34A74CD42E079237006FE82D /* average carddraw */,
 			);
 		};
 /* End PBXProject section */
@@ -341,6 +391,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3493ADD52D99069300E7A038 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34A74CD12E079237006FE82D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -429,6 +486,32 @@
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34A74CD92E079237006FE82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6N74DF64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34A74CDA2E079237006FE82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C6N74DF64;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -626,6 +709,15 @@
 			buildConfigurations = (
 				3493ADDD2D99069300E7A038 /* Debug */,
 				3493ADDE2D99069300E7A038 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34A74CDB2E079237006FE82D /* Build configuration list for PBXNativeTarget "average carddraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34A74CD92E079237006FE82D /* Debug */,
+				34A74CDA2E079237006FE82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
